@@ -1,0 +1,10 @@
+.popup{
+    position: fixed;
+    display: inline-block;
+    z-index: 999;
+    width: 25%;
+    height: 100px;
+    padding: 10px;
+    background-color: white;
+    
+}

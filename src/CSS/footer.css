@@ -1,0 +1,88 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.contain {
+    width: 100%;
+    height: auto;
+    background-color: #282f37;
+    border-top: 5px solid #20c0e8;
+
+}
+
+.foot-info {
+    display: flex;
+    color: white;
+    margin: 20px 0px 0px 0px;
+    column-gap: 180px;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.footer-links li {
+    list-style: none;
+    color: rgb(207, 206, 206);
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.footer-country {
+    border-top: 1px solid rgb(57, 57, 57);
+    border-bottom: 1px solid rgb(57, 57, 57);
+    margin: 10px 110px 0px 55px;
+    font-size: 13px;
+
+}
+
+.footer-country h4 {
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 33px 0;
+    margin: 0px;
+}
+
+td {
+    padding: 10px 0;
+}
+
+.country tr a {
+    color: whitesmoke;
+}
+
+/* footer-end */
+
+
+.footer-end {
+    width: 100%;
+    height: auto;
+    color: whitesmoke;
+    background-color: #3b444f;
+    border-top: 2px solid rgb(57, 57, 57);
+    font-size: 13px;
+   
+}
+
+.foot-end {
+    margin: 0px 0px 0px 110px;
+}
+
+.footer-end p {
+    display: inline;
+}

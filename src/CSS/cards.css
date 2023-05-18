@@ -1,0 +1,90 @@
+p{
+    margin: 0;
+}
+.disc{
+    text-align: center;
+    margin: 70px 10px 50px 10px;
+    font-weight: bold;
+    color:black
+}
+.container{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.card{
+    height: 300px;
+    width: 360px;
+    background-color: white;
+    box-shadow: 1px 2px 4px 2px rgb(196, 194, 194);
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.card-info{
+    display: flex;
+}
+.date{
+    margin: 20px 10px 0px 20px;
+    font-weight: bold;
+}
+.date h1{
+    font-size: 15px;
+    font-weight: bolder;
+    color: red;
+}
+.date p{
+    text-align: center;
+}
+.title{
+    margin: 20px 10px 0px 20px;
+}
+.title h1{
+    font-size: 15px;
+    font-weight: bold;
+}
+.title p{
+    font-size: 12px;
+    color: rgb(176, 174, 174);
+}
+.icon{
+    display: flex;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.icon i{
+    color:#21C0E8;
+    margin-top: 2px;
+}
+.title button{
+    border: none;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    border-radius: 10%;
+}
+
+.delete_btn{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 3px solid red;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -10px;
+    display: grid;
+    place-items: center;
+
+}
+.delete_btn .hyphen{
+    width: 10px;
+    height: 3px;
+    background-color: red;
+}
+.yourevents{
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,8 @@
+.search-result{
+    width:100%;
+}
+.search-result div{
+    width:100%;
+    padding : 10px;
+    background-color: white;
+}
